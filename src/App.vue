@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <CalculatorComponent />
+    <DateCalculatorComponent />
   </div>
 </template>
 
 <script>
-import CalculatorComponent from './components/CalculatorComponent.vue';
+import DateCalculatorComponent from './components/DateCalculatorComponent.vue';
 
 export default {
   name: 'App', // The name of this component should be 'App'
   components: {
-    CalculatorComponent, // Import the CalculatorComponent here
+    DateCalculatorComponent, // Import the CalculatorComponent here
   },
 };
 </script>
