@@ -8,9 +8,9 @@
 import DataCalculatorComponent from './components/DataCalculatorComponent.vue';
 
 export default {
-  name: 'App', // The name of this component should be 'App'
+  name: 'App',
   components: {
-    DataCalculatorComponent, // Import the CalculatorComponent here
+    DataCalculatorComponent,
   },
 };
 </script>
